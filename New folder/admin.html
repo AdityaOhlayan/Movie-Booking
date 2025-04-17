@@ -1,0 +1,21 @@
+<!-- admin.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Panel</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h2>Admin Dashboard</h2>
+  <form id="add-movie-form">
+    <input type="text" placeholder="Movie Title" required>
+    <input type="text" placeholder="Genre" required>
+    <input type="number" placeholder="Duration (minutes)" required>
+    <input type="file" accept="image/*" required>
+    <button type="submit">Add Movie</button>
+  </form>
+  <div id="admin-movie-list"></div>
+  <script src="js/admin.js"></script>
+</body>
+</html>
